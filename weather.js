@@ -5,11 +5,11 @@ const heading = document.querySelector("#heading")
 const getWeather = (search_item) => {
     const options = {
         method: 'GET',
-        url: 'https://weather-by-api-ninjas.p.rapidapi.com/v1/weather',
+        url: 'YOUR API URL',
         params: { city: search_item },
         headers: {
-            'X-RapidAPI-Key': 'e528758625msh0d815ac9da5bdefp1ae752jsn9efafa5802ab',
-            'X-RapidAPI-Host': 'weather-by-api-ninjas.p.rapidapi.com'
+            'X-RapidAPI-Key': 'API KEY',
+            'X-RapidAPI-Host': 'API HOST'
         }
     };
 
